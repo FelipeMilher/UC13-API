@@ -1,0 +1,109 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+.Parte-de-cima{
+    background-image: url('../img/Banner\ adptado.png');
+    max-height: 500%;
+    background-size: cover;
+    padding-bottom: 20%;
+    margin-top: -1%;
+    margin-left: -1%;
+}
+.header-1 {
+    width: 100%;
+}
+.logo {
+    float: left;
+    padding: 15px;
+    width: 50%;
+    display: flex;
+}
+.Game-Mania{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+.redes-sociais ul li {
+    display: inline;
+    float: right;
+    margin: 1%;
+}
+.redes-sociais{
+    width: 100%;
+    height: 86px;
+}
+.icone {
+    -webkit-filter: grayscale(100%);
+    max-width: 60%;
+}
+.Departamento{
+    width: 70%;
+}
+.Departamento ul li {
+    left: 5%;
+    bottom: 7%;
+    display: inline-block;
+    color: #FFFFFF;
+    margin-top: 2%;
+}
+.Departamento ul li a:hover{
+    color: #E41616;
+}
+.Departamento ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.Gamer {
+    margin-right: 10%;
+    display: flex;
+}
+
+.Gamer a:hover{
+    color: #E41616;
+}
+.Gamer a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 20%;
+}
+#imagem-gamer {
+    float: left;
+    width: 80%;
+    height: 80%;
+}
+.Carrinho {
+    margin-right: 3%;
+}
+.Carrinho ul li {
+    right: 2%;
+    bottom: 2%;
+    display: inline-block;
+    color: #FFFFFF;
+}
+.Carrinho ul li a:hover{
+    color: #E41616;
+}
+.Carrinho ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.Pesquisa {
+    text-align: center;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin-top: 13%;
+}
+.Pesquisa input {
+    background-image: url('../img/Pesquisa.png');
+    background-repeat: no-repeat;
+    background-position: right ;
+    width: 400px;
+    height: 50px;
+}
